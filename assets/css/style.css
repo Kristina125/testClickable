@@ -136,7 +136,7 @@ ul {
 }
 
 .wrap__bonus {
-    min-height: calc(80vh - 50px);
+    min-height: calc(79vh - 65px);
     margin-top: 85px;
 } 
 
