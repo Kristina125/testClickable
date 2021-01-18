@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="857.5" height="241" viewBox="0 0 857.5 241">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        font-size: 12.734px;
+        filter: url(#filter);
+        fill: #f8ff13;
+        font-family: DrukTextWideCyr-HeavyItalic, DrukTextWideCyr;
+        text-transform: uppercase;
+      }
+    </style>
+    <filter id="filter" x="583" y="401" width="890" height="240" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="8.246"/>
+      <feFlood result="flood" flood-opacity="0.49"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(70.943 117.865) scale(3.874 3.884)" style="fill: #f8ff13; filter: url(#filter)">
+    <text id="лучший_фронтэнд_на_башне_" data-name="лучший фронтэнд         на башне  " class="cls-1" style="stroke: inherit; filter: none; fill: inherit">лучший фронтэнд<tspan x="0" dy="13.6">        на башне</tspan></text>
+  </g>
+  <use transform="translate(70.943 117.865) scale(3.874 3.884)" xlink:href="#лучший_фронтэнд_на_башне_" style="stroke: #fff; filter: none; fill: none"/>
+</svg>

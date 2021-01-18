@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICKABLE</title>
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/fonts/fonts.css" type="font">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="wrap">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="https://clickable.agency/ru/">
+                            <svg class="header__logo--svg" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 258 39">
+                                <image id="logo" width="258" height="39"
+                                    xlink:href="data:img/png;base64,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" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__prize">
+                        <img src="assets/images/prize.png" alt="prize">
+                        <div class="header__caption">
+                            <p class="header__text">Премия за лучшую верстку без говна</p>
+                            <span class="header__note">*ПО РЕЗУЛЬТАТАМ ПРЕМИИ Huinya sobachiya 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="wrap">
+                <div class="wrap__bonus">
+                    <div class="main__bonus">
+                        <h2 class="main__bonus main__title">Дарим</h2>
+                        <div class="main__like">
+                            <span class="main__like--title main__like--current">
+                                ЛАЙКИ
+                                <span class="main__like--title main__like--decorate">ЛАЙКИ</span>
+                                <span class="main__like--title main__like--decorate">ЛАЙКИ</span>
+                            </span>
+                        </div>
+                        <h2 class="main__bonus main__title ">За четкую верстку</h2>
+                    </div>
+                    <div class="main__btn">
+                        <button class="btn" type="button">
+                            <svg viewBox="-110 -1 450 27">
+                                <text y="20" x="0" class="btn__text">надави сюда</text>
+                            </svg>
+                        </button>
+                        <span class="btn__decorate"></span>
+                    </div>
+                    <div class="main__conditions">
+                        <a href="#" class="main__conditions--link">Правила и условия</a>
+                    </div>
+                </div>
+                <div class="main__content">
+                    <img src="assets/images/man.png" alt="knight" class="knight-img" data-speed="50">
+                    <img src="assets/images/man-mobile.png" alt="knight" class="knight-img--mobile" data-speed="50">
+                    <span class="main__text best__frontend--first">лучший фронтэнд <span
+                            class="best__frontend--first">на
+                            башне</span></span>
+                    <span class="main__text best__frontend--second">лучший фронтэнд <span
+                            class="best__frontend--second">на
+                            башне</span></span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="wrap">
+                <div class="footer__inner">
+                    <div class="footer__prize">
+                        <img src="assets/images/prize.png" alt="prize">
+                        <div class="header__caption">
+                            <p class="header__text">Премия за лучшую верстку без говна</p>
+                            <span class="header__note">*ПО РЕЗУЛЬТАТАМ ПРЕМИИ Huinya sobachiya 2021</span>
+                        </div>
+                    </div>
+                    <div class="payment__wrap">
+                        <div class="footer__payment">
+                            <a href="#" class="icon-payment">
+                                <img src="assets/images/paymentIcon/yandex-icon.png" alt="yandexmoney-icon">
+                            </a>
+                            <a href="#" class="icon-payment">
+                                <img src="assets/images/paymentIcon/qiwi-icon.png" alt="qiwi-icon">
+                            </a>
+                            <a href="#" class="icon-payment">
+                                <img src="assets/images/paymentIcon/webmoney-icon.png" alt="webmoney-icon">
+                            </a>
+                            <a href="#" class="icon-payment">
+                                <img src="assets/images/paymentIcon/visa-icon.png" alt="visa-icon">
+                            </a>
+                            <a href="#" class="icon-payment">
+                                <img src="assets/images/paymentIcon/masterCard-icon.png" alt="mastercard-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" class="icon-social">
+                            <img src="assets/images/socialIcon/limitation-icon.png" alt="18+icon">
+                        </a>
+                        <a href="#" class="icon-social">
+                            <img src="assets/images/socialIcon/instagram-icon.png" alt="instagram-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- decoration -->
+    </div>
+    <div class="floating__balls floating__ball--small" data-speed="100">
+        <img class="floating__ball" src="assets/images/decorate/ball3.png" alt="floating-balls">
+    </div>
+    <div class="floating__balls floating__ball--middle" data-speed="80">
+        <img class="floating__ball" src="assets/images/decorate/ball2.png" alt="floating-balls">
+    </div>
+    <div class="floating__balls floating__ball--large" data-speed="60">
+        <img class="floating__ball" src="assets/images/decorate/ball1.png" alt="floating-balls">
+    </div>
+</body>
+
+</html>
